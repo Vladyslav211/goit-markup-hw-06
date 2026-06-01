@@ -13,6 +13,7 @@ text-decoration: none;
 text-transform: uppercase;
 display: flex;
 justify-content: center;
+text-align:center
 }
 .footer-logo span {
     color: #4D5AE5;
@@ -212,7 +213,7 @@ justify-content: center;
         margin-right: 120px;
     }
     .footer-social-container{
-        margin-right: 80px;
+        margin-right: 83px;
         margin-bottom: 0;
     }
     .footer-input-btn {
