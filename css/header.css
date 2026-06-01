@@ -59,7 +59,7 @@ color:#434455;
 font-weight: 400;
 font-size: 12px;
 line-height: 1.5;
-letter-spacing: 0.32px;
+letter-spacing: 0.04em;
 text-decoration: none;
 font-style: normal;
  padding: 24px 0;
@@ -152,6 +152,7 @@ color: #404BBF;
    .logo{
     margin-right: 120px;
 }
+
 }
 @media screen and (min-width: 1158px){
     .contact-list{
@@ -165,5 +166,8 @@ color: #404BBF;
     }
     .mobile-menu-open-btn{
         display: none;
+    }
+    .logo{
+        margin-right: 76px;
     }
 }

@@ -57,6 +57,9 @@ padding: 96px 0px;
     .features{
         text-align: left;
     }
+    .features-subtitle{
+        text-align: left;
+    }
 }
 @media screen and (min-width: 1158px){
     .features-list{
@@ -69,11 +72,15 @@ padding: 96px 0px;
         display: flex;
     }
     .features-subtitle{
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 500;
         text-align: left;
+        line-height: 1.2;
     }
     .features{
         padding:120px 0;
+    }
+    .features-text{
+        font-weight: 400;
     }
 }
