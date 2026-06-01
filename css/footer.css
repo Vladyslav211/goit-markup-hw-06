@@ -155,6 +155,7 @@ justify-content: center;
         row-gap: 72px;
         margin: 0 auto;
         column-gap: 24px;
+        max-width: 584px;
     }
     .header-nav{
         display: flex;
@@ -177,6 +178,15 @@ justify-content: center;
     }
     .footer-input-btn{
         width: 264px;
+    }
+    .footer-logo{
+        justify-content: left;
+    }
+    .footer-social-media{
+        justify-content: left;
+    }
+    .footer-social-list{
+        justify-content: left;
     }
 }
 @media screen and (min-width: 1158px){
@@ -202,8 +212,9 @@ justify-content: center;
     }
     .footer-social-container{
         margin-right: 80px;
+        margin-bottom: 0;
     }
     .footer-input-btn {
-        width: 264;
+        width: 264px;
     }
 }
