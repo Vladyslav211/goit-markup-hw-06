@@ -23,11 +23,13 @@ justify-content: center;
     line-height: 1.5;
     letter-spacing: 0.32px;
     color: #f4f4fd;
-    width: 264px;
+    max-width: 264px;
     margin-top: 16px;
 }
 .footer-social-list{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap:16px;
     padding: 0;
     margin: 0;
@@ -58,7 +60,6 @@ justify-content: center;
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 72px;
 }
 .footer-logo-container{
     margin-bottom: 72px;
@@ -163,12 +164,12 @@ justify-content: center;
         flex-direction: row;
         gap: 24px;
     }
-    .footer-input-btn{
-        width: 264px;
-    }
     .subscribe-container{
         width: 100%;
-        align-items: center;
+        align-items: flex-start;
+    }
+    .footer-info{
+        text-align: left;
     }
 }
 @media screen and (min-width: 1158px){
