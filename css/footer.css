@@ -148,8 +148,7 @@ justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
         align-items: flex-start;
-        gap: 24px;
-        max-width: 584px;
+        row-gap: 72px;
         margin: 0 auto;
     }
     .header-nav{
@@ -169,6 +168,7 @@ justify-content: center;
     }
     .subscribe-container{
         width: 100%;
+        align-items: center;
     }
 }
 @media screen and (min-width: 1158px){
@@ -177,9 +177,11 @@ justify-content: center;
     }
     .footer-container{
         flex-direction: row;
-        padding: 0 15px;
         flex-wrap: nowrap;
         align-items: baseline;
+        gap: 0;
+        align-items: center;
+
     }
     .footer{
         padding: 100px 0;
