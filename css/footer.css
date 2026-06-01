@@ -60,6 +60,7 @@ justify-content: center;
     display: flex;
     align-items: center;
     flex-direction: column;
+    gap: 72px;
 }
 .footer-logo-container{
     margin-bottom: 72px;
@@ -104,6 +105,7 @@ justify-content: center;
     letter-spacing: 0.04em;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
+
 }
 .footer-subscribe-btn{
     max-width: 165px;
@@ -131,6 +133,7 @@ justify-content: center;
     display: flex;
     flex-direction: column;
     gap: 16px;
+    width: 100%;
 }
 .footer-input-btn::placeholder{
     color: #ffffff;
@@ -151,6 +154,7 @@ justify-content: center;
         align-items: flex-start;
         row-gap: 72px;
         margin: 0 auto;
+        column-gap: 24px;
     }
     .header-nav{
         display: flex;
@@ -170,6 +174,9 @@ justify-content: center;
     }
     .footer-info{
         text-align: left;
+    }
+    .footer-input-btn{
+        width: 264px;
     }
 }
 @media screen and (min-width: 1158px){
@@ -194,6 +201,9 @@ justify-content: center;
         margin-right: 120px;
     }
     .footer-social-container{
-        margin-right: 80;
+        margin-right: 80px;
+    }
+    .footer-input-btn {
+        width: 264;
     }
 }
