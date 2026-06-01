@@ -19,9 +19,9 @@ font-family: "Roboto", sans-serif;
 text-align: center;
 font-weight: 700;
 font-size: 36px;
-line-height: 1.07;
+line-height: 1.11;
 color: #ffffff;
-letter-spacing: 1.12px;
+letter-spacing: 0.02em;
 max-width: 216px;
 margin: 0 auto;
 }
@@ -34,7 +34,7 @@ color: #ffffff;
 background-color: #4D5AE5;
 cursor: pointer;
 display: block;
-margin: 48px auto 0;
+margin: 72px auto 0;
 padding: 16px 32px;
 border-radius: 4px;
 border: none;
@@ -58,7 +58,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
     ),
-    url("../images/hero-bg.jpg");
+    url("../images/hero-bg@2x.jpg");
     }
 }
 @media screen and (min-width: 768px){
@@ -75,10 +75,13 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         font-size: 56px;
         max-width: 496px;
     }
+    .hero-button{
+        margin-top: 36px;
+    }
 }
 @media screen and (min-width: 1158px){
     .hero{
-        padding: 188 0;
+        padding: 188px 0;
         background-image: 
     linear-gradient(
         rgba(46, 47, 66, 0.7),

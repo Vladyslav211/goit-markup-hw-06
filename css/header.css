@@ -7,7 +7,8 @@ font-size: 18px;
 letter-spacing: 0.54px;
 text-decoration: none;
 text-transform: uppercase;
-margin-right: 76px;
+padding: 16px 0;
+margin-right: 0;
 }
 .logo span {
     color: #4D5AE5;
@@ -78,6 +79,7 @@ color: #404BBF;
  .header-container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
  }
 .header{
@@ -140,7 +142,7 @@ color: #404BBF;
    .contact-list{
     display: flex;
     flex-direction: column;
-    gap: 0;
+    gap: 12px;
    }
    .contact-link{
     font-size: 12px;
@@ -156,8 +158,10 @@ color: #404BBF;
         flex-direction: row;
         gap: 40px;
     }
-    .header-container{
-        gap: 76px;
+    .contact-link{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
     }
     .mobile-menu-open-btn{
         display: none;

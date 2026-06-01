@@ -2,13 +2,13 @@
 .features-subtitle{
 font-weight: 500;
 font-size: 20px;
-line-height: 1.2;
+line-height: 1.11;
 letter-spacing: 0.02em;
 color: #2e2f42;
 text-decoration: none;
 }
 .features-text{
-font-weight: 400;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -22,7 +22,7 @@ justify-content: center;
 flex-direction: column;
 }
 .features{
-padding: 120px 0px;
+padding: 96px 0px;
 }
 .features-item{
     width: 100%;
@@ -54,6 +54,9 @@ padding: 120px 0px;
     .features-item{
         width: calc((100% - 24px) / 2);
     }
+    .features{
+        text-align: left;
+    }
 }
 @media screen and (min-width: 1158px){
     .features-list{
@@ -69,5 +72,8 @@ padding: 120px 0px;
         font-size: 24px;
         font-weight: 500;
         text-align: left;
+    }
+    .features{
+        padding:120px 0;
     }
 }
