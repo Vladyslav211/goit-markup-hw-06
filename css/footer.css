@@ -179,13 +179,13 @@ justify-content: center;
         width: 264px;
     }
     .footer-logo{
-        justify-content: left;
+        justify-content: flex-start;
     }
     .footer-social-media{
-        justify-content: left;
+        justify-content: flex-start;
     }
     .footer-social-list{
-        justify-content: left;
+        justify-content: flex-start;
     }
 }
 @media screen and (min-width: 1158px){
