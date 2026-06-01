@@ -56,7 +56,7 @@ color: #404BBF;
 .contact-link {
 color:#434455;
 font-weight: 400;
-font-size: 16px;
+font-size: 12px;
 line-height: 1.5;
 letter-spacing: 0.32px;
 text-decoration: none;
@@ -106,4 +106,60 @@ color: #404BBF;
 }
 .current {
     color: #404bbf
+}
+/* Mobile Base */
+.nav-list{
+    display: none;
+}
+.address{
+    display: none;
+}
+
+.mobile-menu-open-btn{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+@media screen and (min-width: 768px){
+    .nav-list{
+        display: flex;
+    }
+    .address{
+        display: block;
+    }
+    .mobile-open-btn{
+        display: none;
+    }
+    .mobile-menu-open-btn{
+        display: none;
+    }
+   .contact-list{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+   }
+   .contact-link{
+    font-size: 12px;
+    line-height: 1.17;
+    padding: 0;
+   }
+   .logo{
+    margin-right: 120px;
+}
+}
+@media screen and (min-width: 1158px){
+    .contact-list{
+        flex-direction: row;
+        gap: 40px;
+    }
+    .header-container{
+        gap: 76px;
+    }
+    .mobile-menu-open-btn{
+        display: none;
+    }
 }
