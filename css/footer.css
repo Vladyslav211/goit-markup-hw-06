@@ -210,10 +210,12 @@ text-align:center
         margin-right: 120px;
     }
     .footer-social-container{
-        margin-right: 83px;
         margin-bottom: 0;
     }
     .footer-input-btn {
         width: 264px;
+    }
+    .subscribe-container{
+        margin-left: auto;
     }
 }
